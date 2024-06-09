@@ -10,16 +10,21 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: '🌟 Introduction',
+					autogenerate: { directory: 'introduction' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '✨ Features',
+					autogenerate: { directory: 'features' },
 				},
+				{
+					label: '📋 Guides',
+					autogenerate: { directory: 'guides' },
+				},
+				{
+					label: '🚀 Deployment',
+					autogenerate: { directory: 'deployment' },
+				}
 			],
 		}),
 	],
