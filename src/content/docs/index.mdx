@@ -1,36 +1,42 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Stellar Chat
+description: A powerful multi-modal chat application that allows users to create custom agents, generate images, utilize visual recognition, and integrate with local LLMs and commercial models like OpenAI, Gemini, Perplexity, and Claude.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: A multi-modal chat application empowers users to create custom agents and integrate with local LLMs and OpenAI, Gemini, Perplexity, and Claude models.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Explore Docs
       link: /guides/example/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Features
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Multi-Model Service Provider Support" icon="seti:plan">
+		Integrate seamlessly with various service providers to access a diverse range of AI models, including OpenAI (GPT, DALL-E, vision), Anthropic (Claude), Google AI (Gemini Pro, Gemini Vision), Groq, Cloudflare, and local model support by Ollama.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Create AI Assistants" icon="puzzle">
+		Empower your workflow by crafting specialized AI assistants tailored to specific tasks, capable of executing custom actions and utilizing their own knowledge base, enhancing efficiency and productivity.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Run custom actions" icon="rocket">
+		Create custom actions for seamless integration with your favorite applications like Gmail, Todoist, Spotify, and more, enhancing productivity and workflow efficiency.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Talk with uploaded files" icon="document">
+		Upload documents and websites to engage in conversations and interactions, enhancing the capability to interact with diverse content sources.
+	</Card>
+	<Card title="Visual Recognition" icon="magnifier">
+		Utilize the powerful visual recognition capabilities of the GPT-4-Vision model and Gemini Vision.
+	</Card>
+	<Card title="Text-to-Image Generation" icon="seti:image">
+		Generate images from text inputs using advanced models such as Stable Diffusion and DALL-E 3.
+	</Card>
+	<Card title="Support for TTS & STT" icon="seti:audio">
+		Enable text-to-speech (TTS) and speech-to-text (STT) functionalities within the application.
 	</Card>
 </CardGrid>
