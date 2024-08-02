@@ -176,6 +176,7 @@ docker-compose up -d
 - `SEQ_API_KEY`: API key for Seq.
 - `SEQ_ADMIN_PASSWORD`: Admin password for Seq.
 - `CORS_ALLOWED_ORIGINS`: Allowed origins for CORS (e.g., * or http://localhost:7080).
+- `OLLAMA_ENDPOINT`: URL for the Ollama service (e.g., * or http://localhost:11434).
 
 **Model Keys**
 - `OPENAI_API_KEY`: Key for accessing OpenAI services.
